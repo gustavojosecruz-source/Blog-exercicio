@@ -1,0 +1,31 @@
+header{
+    background-color: beige;
+    color: aliceblue;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 5px solid #cf1010;
+    padding: 16px;
+}
+
+
+main{
+    background-color: #ffff;
+    color: #183c63;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+p
+
+article{
+    display: flex;
+}
