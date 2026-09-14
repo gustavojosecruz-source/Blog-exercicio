@@ -1,31 +1,50 @@
+body{
+    max-width: 100vw;
+}
+
+
+
+
+
 header{
     background-color: beige;
     color: aliceblue;
     text-align: center;
-    max-width: 800px;
     margin: 0 auto;
-    border: 5px solid #cf1010;
+    border: 5px solid #e5e5e5;
     padding: 16px;
 }
 
 
 main{
-    background-color: #ffff;
+    background-color: #40b089;
     color: #183c63;
     text-align: center;
-    max-width: 800px;
     margin: 0 auto;
     display: flex;
-
+flex-wrap: wrap;
+justify-content: center;
 }
 
 img{
     width: 80px;
     height: 80px;
+    box-sizing: 80px;
+    object-fit: cover;
 }
 
-p
 
 article{
     display: flex;
+    border: 1px solid blue;
+    margin: 16px;
+    gap: 16px;
+    padding: 16px;
+    background-color: white;
+    flex: 1 1 25%;
+    border-radius: 8px;
+}
+
+.Artigo-autor{
+    font-weight: bold;
 }
